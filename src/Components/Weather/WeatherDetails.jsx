@@ -17,13 +17,13 @@ const WeatherDetails = () => {
       </div>
       {/* air conditin */}
       <div className="w-full p-4 px-8 bg-white/10 mt-10 rounded-lg">
-        <p className="pb-3 text-[10px] text-white/50 uppercase font-semibold">
+        <p className="pb-3 text-[10px] text-white/50 uppercase ">
           Air Conditions
         </p>
         {/* items */}
         <div className="grid grid-cols-2 gap-5">
           <div>
-            <h4 className="flex items-center mt-2 text-lg text-white/50 font-semibold">
+            <h4 className="flex items-center mt-2 text-md text-white/50 font-semibold">
               <CiTempHigh /> Real Feel
             </h4>
             <h1 className="text-3xl ml-6 font-semibold">
@@ -31,7 +31,7 @@ const WeatherDetails = () => {
             </h1>
           </div>
           <div>
-            <h4 className="flex items-center mt-2 text-lg text-white/50 font-semibold">
+            <h4 className="flex items-center mt-2 text-md text-white/50 font-semibold">
               <CiTempHigh /> Winds
             </h4>
             <h1 className="text-3xl ml-6 font-semibold">
@@ -39,7 +39,7 @@ const WeatherDetails = () => {
             </h1>
           </div>
           <div>
-            <h4 className="flex items-center mt-2 text-lg text-white/50 font-semibold">
+            <h4 className="flex items-center mt-2 text-md text-white/50 font-semibold">
               <CiTempHigh /> Chance of rain
             </h4>
             <h1 className="text-3xl ml-6 font-semibold">
@@ -47,7 +47,7 @@ const WeatherDetails = () => {
             </h1>
           </div>
           <div>
-            <h4 className="flex items-center mt-2 text-lg text-white/50 font-semibold">
+            <h4 className="flex items-center mt-2 text-md text-white/50 font-semibold">
               <CiTempHigh /> Chance of rain
             </h4>
             <h1 className="text-3xl ml-6 font-semibold">
