@@ -1,11 +1,12 @@
-import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Layout/Root";
 
+const router = createBrowserRouter([{ path: "/", element: <Root /> }]);
 function App() {
   return (
-    <>
-      <Root />
-    </>
+    <div>
+      <RouterProvider router={router} />
+    </div>
   );
 }
 
